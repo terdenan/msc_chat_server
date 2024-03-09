@@ -49,7 +49,8 @@ func (a *App) initDeps() error {
 }
 
 func (a *App) initEnv() error {
-	return config.Load(".env")
+	config.Load(".env")
+	return nil
 }
 
 func (a *App) initServiceProvider() error {
