@@ -6,8 +6,8 @@ on:
 
 env:
   REGISTRY: "terdenan"
-  IMAGE_NAME: "msc_auth"
-  CONTAINER_NAME: "msc_auth_container"
+  IMAGE_NAME: "msc_chat_server"
+  CONTAINER_NAME: "msc_chat_server_container"
 
 jobs:
   image-build-and-push:
